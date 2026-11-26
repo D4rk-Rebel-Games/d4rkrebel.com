@@ -1,0 +1,48 @@
+{
+  "retrieved": "2026-11-26",
+  "approvedLogos": [
+    {
+      "file": "assets/logos/D4rk_Rebel_Folded_Hood.svg",
+      "sha256": "be07045c5392fa513fdb7834cdc67080e21b6b606155b7c702460bdeada5baee"
+    },
+    {
+      "file": "assets/logos/D4rk_Rebel_Folded_Hood_Black.svg",
+      "sha256": "c5e03e552d4f418df47da6812cce4f41546e327f6dfc48617d2196254278437f"
+    },
+    {
+      "file": "assets/logos/D4rk_Rebel_Folded_Hood_White.svg",
+      "sha256": "734a0c9cc31bc644e46bf97b6eed35750f0dde503333534b29a095c32837abb1"
+    }
+  ],
+  "fonts": [
+    {
+      "file": "assets/fonts/Sora-latin-ext-variable.woff2",
+      "source": "https://fonts.gstatic.com/s/sora/v17/xMQbuFFYT72XzQspDre2.woff2",
+      "bytes": 15548,
+      "sha256": "c163c536f68befd99a83d4f17e8b88030e7f54229688a45c44f70c7149db7385"
+    },
+    {
+      "file": "assets/fonts/Sora-latin-variable.woff2",
+      "source": "https://fonts.gstatic.com/s/sora/v17/xMQbuFFYT72XzQUpDg.woff2",
+      "bytes": 33652,
+      "sha256": "fa26406eeda9a3c6ec3d9ea8813c3045d6dc755e30c716d5c094e8ef43be5a7f"
+    },
+    {
+      "file": "assets/fonts/InterVariable.woff2",
+      "source": "https://cdn.jsdelivr.net/gh/rsms/inter@v4.1/docs/font-files/InterVariable.woff2",
+      "bytes": 352240,
+      "sha256": "693b77d4f32ee9b8bfc995589b5fad5e99adf2832738661f5402f9978429a8e3"
+    },
+    {
+      "file": "assets/fonts/InterVariable-Italic.woff2",
+      "source": "https://cdn.jsdelivr.net/gh/rsms/inter@v4.1/docs/font-files/InterVariable-Italic.woff2",
+      "bytes": 387976,
+      "sha256": "e564f652916db6c139570fefb9524a77c4d48f30c92928de9db19b6b5c7a262a"
+    }
+  ],
+  "fontLicenseSources": {
+    "Sora": "https://raw.githubusercontent.com/google/fonts/main/ofl/sora/OFL.txt",
+    "Inter": "https://raw.githubusercontent.com/rsms/inter/v4.1/LICENSE.txt"
+  },
+  "derivedAssets": "PNG logos, icons and social image are rendered from the approved SVG geometry."
+}

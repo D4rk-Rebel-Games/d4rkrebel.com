@@ -1,13 +1,19 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-drg-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>D4rk Rebel Games — Independent Game Studio</title>
   <meta name="description" content="D4rk Rebel Games is an independent game studio building original video games for mobile, desktop, and console.">
-  <meta name="theme-color" content="#07070b">
+  <meta name="theme-color" content="#142325">
   <link rel="canonical" href="https://d4rkrebel.com/">
-  <link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+  <link rel="icon" href="/brand/assets/icons/favicon.ico" sizes="32x32">
+  <link rel="icon" href="/brand/assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/brand/assets/icons/apple-touch-icon.png">
+  <link rel="preload" href="/brand/assets/fonts/InterVariable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/brand/assets/fonts/Sora-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/brand/css/fonts.css">
+  <link rel="stylesheet" href="/brand/css/tokens.css">
   <link rel="stylesheet" href="/assets/styles.css">
 
   <meta property="og:type" content="website">
@@ -15,7 +21,11 @@
   <meta property="og:title" content="D4rk Rebel Games — Independent Game Studio">
   <meta property="og:description" content="Original video games for mobile, desktop, and console.">
   <meta property="og:url" content="https://d4rkrebel.com/">
-  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://d4rkrebel.com/brand/assets/social/og-default.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="The D4rk Rebel Games folded hood emblem beside the studio name">
+  <meta name="twitter:card" content="summary_large_image">
 
   <script type="application/ld+json">
   {
@@ -23,7 +33,7 @@
     "@type": "Organization",
     "name": "D4rk Rebel Games",
     "url": "https://d4rkrebel.com/",
-    "logo": "https://d4rkrebel.com/assets/logo.svg",
+    "logo": "https://d4rkrebel.com/brand/assets/logos/D4rk_Rebel_Folded_Hood_512.png",
     "description": "Independent game studio building video games for mobile, desktop, and console.",
     "contactPoint": {
       "@type": "ContactPoint",
@@ -39,9 +49,9 @@
 
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="/" aria-label="D4rk Rebel Games home">
-        <img src="/assets/logo.svg" alt="" width="36" height="36">
-        <span>D4rk <b>Rebel</b> Games</span>
+      <a class="brand" href="/" aria-label="D4rk Rebel Games — home">
+        <img src="/brand/assets/logos/D4rk_Rebel_Folded_Hood_White.svg" alt="" width="600" height="520">
+        <span>D4rk Rebel Games</span>
       </a>
       <nav class="nav" aria-label="Primary">
         <a href="#studio">Studio</a>
@@ -64,7 +74,7 @@
             <a class="btn ghost" href="#studio">About the studio</a>
           </div>
         </div>
-        <img class="hero-mark" src="/assets/logo.svg" alt="D4rk Rebel Games logo" width="320" height="320">
+        <img class="hero-mark" src="/brand/assets/logos/D4rk_Rebel_Folded_Hood_White.svg" alt="" width="600" height="520">
       </div>
     </section>
 
@@ -110,13 +120,23 @@
           <p>Every game we release will be listed here, with links to where you can play it.</p>
         </div>
 
-        <div class="coming-soon">
+        <article class="game-feature">
           <div>
             <p class="status">In development</p>
-            <h3>First titles coming soon</h3>
-            <p>We&rsquo;re a new studio and our first games are currently in development. Check back here for announcements and store links as they launch.</p>
+            <h3><a href="/games/the-old-kings-tower/">The Old King&rsquo;s Tower</a></h3>
+            <ul class="tags" aria-label="Genre and platforms">
+              <li>Tower defense</li>
+              <li>iPhone</li>
+              <li>iPad</li>
+            </ul>
+            <p>The kingdom has fallen, and each night the dead march on the old king&rsquo;s last tower. Build beside the road, bank gold in the vault for interest at dawn, and hold for forty nights.</p>
+            <a class="btn" href="/games/the-old-kings-tower/">Explore the game</a>
           </div>
-        </div>
+          <div class="shots">
+            <img class="phone" src="/games/the-old-kings-tower/images/title.webp" alt="" width="640" height="1387" loading="lazy">
+            <img class="phone" src="/games/the-old-kings-tower/images/dawn.webp" alt="" width="640" height="1387" loading="lazy">
+          </div>
+        </article>
       </div>
     </section>
 
