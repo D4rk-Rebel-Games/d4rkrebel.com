@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="D4rk Rebel Games logo">
-  <title>D4rk Rebel Games</title>
-  <polygon points="32,3 57,17.5 57,46.5 32,61 7,46.5 7,17.5" fill="#0b0b10" stroke="#ff2e4d" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M20 17h12a15 15 0 0 1 0 30H20z M27 24v16h5a8 8 0 0 0 0-16z" fill="#f4f4f6" fill-rule="evenodd"/>
-  <path d="M44 11 L18 55" stroke="#0b0b10" stroke-width="6" stroke-linecap="round"/>
-  <path d="M44 11 L18 55" stroke="#ff2e4d" stroke-width="2.5" stroke-linecap="round"/>
-</svg>
